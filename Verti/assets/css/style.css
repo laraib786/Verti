@@ -1,0 +1,390 @@
+@font-face {
+	src:url(../fonts/OpenSans-Bold.ttf);
+	font-family:obold;
+}
+@font-face {
+	src:url(../fonts/OpenSans-Regular.ttf);
+	font-family:open;
+}
+@font-face {
+	src:url(../fonts/OpenSans-Light.ttf);
+	font-family:olight;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul,ol{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+/* reset end */
+
+body{
+	background-image: url('../img/back.jpg');
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+
+}
+.nav-bar{
+	margin-top: 65px;
+	height: 62px;
+}
+.logo{
+	float: left;
+}
+.nav{
+	float: right;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav a{
+	margin-left: 10px;
+	font: 18px obold;
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #696969;
+	border-radius: 8px;
+	-webkit-transition: all .6s ease;
+	   -moz-transition: all .6s ease;
+	    -ms-transition: all .6s ease;
+	     -o-transition: all .6s ease;
+	        transition: all .6s ease;
+	display: block;
+}
+.nav a:hover{
+	background-color: #696969;
+	color: white;
+}
+.text{
+	margin-left: 55px;
+	float: left
+}
+.slider{
+	background-color: white;
+	margin-top: 50px;
+	border-radius: 8px;
+	padding: 80px 0;
+	box-shadow: 0px 0px 7px -2px;
+}
+.slider h1{
+	font: 80px obold;
+	color: #444444;
+}
+.slider p{
+	font: 40px olight;
+	color: #444444;
+}
+.buttons{
+	margin-right: 55px;
+	float: right;
+}
+.bluebtn{
+	background-color: #0090c5;
+	border-radius: 8px;
+	padding: 20px 65px;
+	-webkit-transition: all .6s ease;
+	   -moz-transition: all .6s ease;
+	    -ms-transition: all .6s ease;
+	     -o-transition: all .6s ease;
+	        transition: all .6s ease;
+}
+.bluebtn h2{
+	font: 40px obold;
+	color: white;
+}
+.bluebtn h2 span{
+	float: right;
+	margin-left: 10px;
+}
+.bluebtn:hover{
+	background-color: #086a8e;
+}
+.greybtn{
+	margin-top: 30px;
+	background-color: #f3f3f3;
+	border-radius: 8px;
+	padding: 20px 65px;
+	-webkit-transition: all .6s ease;
+	   -moz-transition: all .6s ease;
+	    -ms-transition: all .6s ease;
+	     -o-transition: all .6s ease;
+	        transition: all .6s ease;
+}
+.greybtn h2{
+	font: 40px obold;
+	color: #444444;
+}
+.greybtn h2 span{
+	float: right;
+}
+.greybtn:hover{
+	background-color: #bfbfbf;
+}
+.one-third{
+	width:32%;
+	float:left;
+	margin-right:2%;
+}
+.one-third:last-child{
+	margin-right:0;
+}
+.slider1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.col{
+	background-color: white;
+	border-radius: 9px;
+	overflow: hidden;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+.col:hover{
+	box-shadow: 0px 0px 7px -2px;
+}
+.col-img{
+	width: 100%;
+	height: 290px;
+	overflow: hidden;
+}
+.col img{
+	width: 100%;
+	   -moz-transition: all .6s ease;
+		-webkit-transition: all .6s ease;
+	    -ms-transition: all .6s ease;
+	    -o-transition: all .6s ease;
+	    transition: all .6s ease;
+}
+
+.col img:hover{
+	transform: scale(1.1);
+}
+.col h1{
+	font: 25px obold;
+	margin-left: 35px;
+	margin-top: 40px;
+	color: #444444;
+}
+.col a{
+	margin-left: 35px;
+	margin-top: 30px;
+	font: 20px Calibri;
+	color: #777b7b;
+}
+.col p{
+	padding: 0 35px;
+	margin-top: 20px;
+	font: 21px Calibri;
+	color: #777b7b;
+	margin-bottom: 50px;
+}
+.slider2{
+	padding: 90px 0;
+	
+	background-color: white;
+}
+.left-side{
+	width: 40%;
+	float: left;
+/*	background-color: red;	*/
+}
+.left-side h1{
+	font: 30px obold;
+	color: #444444;
+}
+.left-side ul li{
+	display:inline;
+}
+.left-side img{
+	margin-top: 18px;
+	margin-right: 18px;
+	border-radius: 7px;
+}
+.bluebtnsmall{
+	display: inline-block;
+	margin-top: 60px;
+	background-color: #0090c5;
+	padding:20px 25px;
+	border-radius: 8px;
+	-webkit-transition: all .6s ease;
+	   -moz-transition: all .6s ease;
+	    -ms-transition: all .6s ease;
+	     -o-transition: all .6s ease;
+	        transition: all .6s ease;
+}
+.bluebtnsmall h2{
+	font: 20px obold;
+	color: white;
+}
+.bluebtnsmall span{
+	margin-right: 13px;
+}
+.bluebtnsmall:hover{
+	background-color: #086a8e;
+}
+.right-side{
+	width: 60%;
+	float: right;
+	/*background-color: blue;*/
+}
+.right-side h1{
+	font: 40px obold;
+	color: #444444;
+	margin-bottom: 40px;
+}
+.right-side a{
+	font: 21px Calibri;
+	color: #777777;
+	line-height: 35px;
+}
+
+.right-side a b{
+	font-weight: bold;
+}
+.right-side a span{
+	color: #3f96c8;
+	text-decoration: underline;
+}
+.one-fourth{
+	width:22%;
+	float:left;
+	margin-right:4%;
+}
+.one-fourth:last-child{
+	margin-right:0;
+}
+.slider3{
+	margin-top: 100px;
+}
+.slider3 h1{
+	font: 25px obold;
+	color: #444444;
+	margin-bottom: 30px;
+}
+.slider3 ul li{
+	line-height: 30px;
+}
+.slider3 ul li a{
+	font: 15px open;
+	color: #696969;
+}
+.slider3 i{
+	font-size: 25px;
+	padding: 10px;
+	margin-right: 10px;
+	color: white;
+	background-color: #444444;
+	height: 25px;
+	width: 25px;
+	border-radius: 10px;
+	line-height: 25px;
+	text-align: center;
+}
+.foot-nav{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.foot-nav a{
+	font: 20px Calibri;
+	color: #696969;
+}
+.top-scroll{
+	transition:all.9s ease-in;
+	position:fixed;
+	height:40px;
+	width:40px;
+	font-size:20px;
+	bottom:20px;
+	background-color:red;
+	right:20px;
+	background-color:#b0976d;
+	border:1px solid #b0976d;
+	border-radius:5px;
+	opacity:0;
+	text-align:center;
+	line-height:40px;
+}
+.top-scroll i{
+	color:white;
+}
+.shows{
+	opacity:.5;
+}
+.shows:hover{
+	opacity:1;	
+}
+.hide{
+	display: none;
+}
+@media only screen and (max-width:768px){
+	.nav-bar .logo{
+		width: 100%;
+		text-align: center;
+	}
+	.nav-bar .nav{
+		float: none;
+	}
+	.nav-bar .nav ul li a{
+		text-align: center;
+		font-size: 16px;
+	
+	}
+	.slider{
+		padding: 0 10px;
+	}
+	.slider .text{
+		text-align: center;
+		width: 100%;
+		margin-left: 0;
+	}
+	.slider .text h1{
+		font-size: 70px;
+	}
+	.slider .text p{
+		font-size: 35px;
+	}
+	.slider .buttons{
+		margin-top: 30px;
+		margin-bottom: 10px;
+		padding: 0 -40px;
+		margin-right: 0px;
+		text-align: center;
+		display:block;
+		width: 100%;
+	}
+	.slider1 .one-third{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.slider2 .container .left-side{
+		text-align: center;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.slider2 .container .left-side img{
+		width: 40%;
+	}
+	.slider2 .container .left-side .bluebtnsmall{
+		
+	}
+	.slider2 .container .right-side{
+		width: 100%;
+		text-align: center; 
+	}
+	.slider3 .one-fourth{
+		width: 100%;
+		text-align: center;
+		margin: 30px 0;
+	}
+}
